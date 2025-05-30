@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mr Nice - Livraison en Valais</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #333;
+    }
+    header {
+      background-color: #d4af37;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header img {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    section {
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #d4af37;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      margin-top: 20px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    input[type="text"], input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #aaa;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Mr Nice" />
+    <h1>Mr Nice</h1>
+    <p>Livrez tout, à tout moment, partout en Valais.</p>
+    <a href="#inscription" class="btn">Je veux être parmi les premiers !</a>
+  </header>
+
+  <section>
+    <h2>Le service de livraison valaisan par excellence</h2>
+    <p>Mr Nice est le premier service de livraison de biens à la demande en Valais. Objets, documents, courses, repas : commandez et recevez tout, où que vous soyez.</p>
+    <ul>
+      <li>✅ Sans partenariat requis</li>
+      <li>✅ Paiement sécurisé TWINT ou carte</li>
+      <li>✅ Livreurs indépendants & géolocalisés</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Pourquoi choisir Mr Nice ?</h2>
+    <ul>
+      <li>⏱ Rapide et local</li>
+      <li>📦 Livraison de n’importe quel bien</li>
+      <li>📟 Historique et suivi</li>
+      <li>🤝 Abonnement ou à la demande</li>
+      <li>🚵 Disponible sur Sion, Sierre, Martigny, Monthey</li>
+    </ul>
+  </section>
+
+  <section id="inscription">
+    <h2>Inscription au lancement (clients)</h2>
+    <form action="mailto:contact@mrniceapp.com" method="post" enctype="text/plain">
+      <div class="form-group">
+        <input type="text" name="Prénom" placeholder="Prénom" required />
+      </div>
+      <div class="form-group">
+        <input type="text" name="Ville" placeholder="Ville" required />
+      </div>
+      <div class="form-group">
+        <input type="email" name="Email" placeholder="Email" required />
+      </div>
+      <div class="form-group">
+        <input type="text" name="Téléphone" placeholder="Téléphone" required />
+      </div>
+      <button class="btn" type="submit">Je m’inscris</button>
+    </form>
+    <p>✅ 5 CHF offerts pour les premiers inscrits !</p>
+  </section>
+
+  <section id="livreurs">
+    <h2>Rejoindre Mr Nice en tant que livreur</h2>
+    <p>Tu veux livrer avec nous ? Rejoins une équipe flexible et locale !</p>
+    <form action="mailto:contact@mrniceapp.com" method="post" enctype="text/plain">
+      <div class="form-group">
+        <input type="text" name="Nom complet" placeholder="Nom complet" required />
+      </div>
+      <div class="form-group">
+        <input type="text" name="Ville" placeholder="Ville de résidence" required />
+      </div>
+      <div class="form-group">
+        <input type="email" name="Email" placeholder="Email" required />
+      </div>
+      <div class="form-group">
+        <input type="text" name="Téléphone" placeholder="Téléphone" required />
+      </div>
+      <div class="form-group">
+        <input type="text" name="Véhicule" placeholder="Type de véhicule (vélo, scooter, voiture...)" required />
+      </div>
+      <button class="btn" type="submit">Je postule comme livreur</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Ils attendent déjà Mr Nice</h2>
+    <blockquote>
+      "Enfin un service qui me livre autre chose que des burgers !"
+      <br />📍 Alex, Sion
+    </blockquote>
+  </section>
+
+  <div class="footer">
+    <p>© 2025 Mr Nice | contact@mrniceapp.com</p>
+  </div>
+</body>
+</html>
